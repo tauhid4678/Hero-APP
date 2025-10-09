@@ -17,15 +17,15 @@ export default function Navbar() {
       </div>
       {/* for desktop  */}
       <ul className="hidden md:flex gap-6 text-lg">
-        <li className="cursor-pointer hover:text-[#9F62F2] hover:underline font-medium">
+        <a className="hover:text-[#9F62F2]" href="./">
           Home
-        </li>
-        <li className="cursor-pointer hover:text-[#9F62F2] hover:underline font-medium">
+        </a>
+        <a className="hover:text-[#9F62F2]" href="./apps">
           Apps
-        </li>
-        <li className="cursor-pointer hover:text-[#9F62F2] hover:underline font-medium">
+        </a>
+        <a className="hover:text-[#9F62F2]" href="./installation">
           Installation
-        </li>
+        </a>
       </ul>
       {/* desktop github button */}
       <div className="hidden md:flex">
