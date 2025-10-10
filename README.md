@@ -1,5 +1,4 @@
-Project Name: HeroApp (example)
-
+Project Name: HeroApp
 Description:
 
 A responsive React app that displays a list of apps with details like title, company, downloads, and ratings. Users can click on an app to view detailed information.
