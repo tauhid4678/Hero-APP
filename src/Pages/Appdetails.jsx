@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   BarChart,
   Bar,
@@ -7,43 +7,15 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
+
+import useSelectedApp from "../Hooks/useSelectedApp";
+import useAppInstallation from "../Hooks/useAppInstallation";
 
 export default function AppDetails() {
-  const [app, setApp] = useState(null);
-  const [installed, setInstalled] = useState(false);
-
-  useEffect(() => {
-    const stored = localStorage.getItem("selectedApp");
-    if (stored) setApp(JSON.parse(stored));
-    else window.location.href = "/";
-  }, []);
-
-  useEffect(() => {
-    const storedInstalled = localStorage.getItem("installedApps");
-    if (storedInstalled && app) {
-      const installedList = JSON.parse(storedInstalled);
-      const exists = installedList.some((a) => a.id === app.id);
-      if (exists) setInstalled(true);
-    }
-  }, [app]);
-
+  const app = useSelectedApp();
+  const { installed, handleInstall } = useAppInstallation(app);
   if (!app) return null;
-
-  const handleInstall = () => {
-    setInstalled(true);
-    toast.success(`${app.title} installed successfully!`);
-
-    const stored = localStorage.getItem("installedApps");
-    const installedList = stored ? JSON.parse(stored) : [];
-
-    const exists = installedList.some((a) => a.id === app.id);
-    if (!exists) {
-      installedList.push(app);
-      localStorage.setItem("installedApps", JSON.stringify(installedList));
-    }
-  };
-
   const reviewData = (app.ratings || [])
     .slice()
     .sort((a, b) => b.count - a.count);

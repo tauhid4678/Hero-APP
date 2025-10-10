@@ -1,8 +1,7 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 
 import MainLayOuts from "../Layouts/MainLayOuts";
 import Installation from "../Pages/Installation";
-
 import Home from "../Pages/Home";
 import ErrorPage from "../Pages/ErrorPage";
 import Allapps from "../Pages/Allapps";
@@ -31,7 +30,6 @@ const router = createBrowserRouter([
         path: "/appdetails",
         element: <Appdetails />,
       },
-
       {
         path: "*",
         element: <ErrorPage />,

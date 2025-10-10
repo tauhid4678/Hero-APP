@@ -1,17 +1,25 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router";
+import { useLoaderData } from "react-router-dom";
 import Appcards from "../Components/Appcards";
 import AppsNotFound from "../Components/AppsNotFound";
+import Loader from "../Components/Loader";
 
 export default function Allapps() {
   const apps = useLoaderData() || [];
   const [searchTerm, setSearchTerm] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const filteredApps = apps.filter((app) =>
     app.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const tfound = filteredApps.length;
+
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+    setLoading(true);
+    setTimeout(() => setLoading(false), 300);
+  };
 
   return (
     <div className="flex flex-col items-center">
@@ -51,13 +59,17 @@ export default function Allapps() {
               type="search"
               placeholder="Search apps..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={handleSearch}
               className="outline-none bg-transparent w-full"
             />
           </label>
         </div>
 
-        {filteredApps.length > 0 ? (
+        {loading ? (
+          <div className="flex justify-center items-center min-h-[50vh]">
+            <Loader />
+          </div>
+        ) : filteredApps.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center pb-10">
             {filteredApps.map((app) => (
               <Appcards key={app.id} app={app} />

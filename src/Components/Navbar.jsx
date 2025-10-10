@@ -17,13 +17,13 @@ export default function Navbar() {
       </div>
       {/* for desktop  */}
       <ul className="hidden md:flex gap-6 text-lg">
-        <a className="hover:gradcolor" href="./">
+        <a className="hover:text-[#9F62F2]" href="./">
           Home
         </a>
-        <a className="hover:gradcolor" href="./apps">
+        <a className="hover:text-[#9F62F2]" href="./apps">
           Apps
         </a>
-        <a className="hover:gradcolor" href="./installation">
+        <a className="hover:text-[#9F62F2]" href="./installation">
           Installation
         </a>
       </ul>

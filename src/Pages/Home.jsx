@@ -1,6 +1,6 @@
 import React from "react";
 import Bannerandstats from "../Components/bannerandstats";
-import { useLoaderData } from "react-router";
+import { useLoaderData } from "react-router-dom";
 import AppCards from "../Components/Appcards";
 
 export default function Home() {
