@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="flex items-center">
           <img
             className="w-8 h-8 md:w-10 md:h-10"
-            src="/src/assets/logo.png"
+            src="/assets/logo.png"
             alt="Logo"
           />
           <h1 className="font-bold ml-2 text-lg md:text-xl gradcolor">
-            <a href="./">HERO.IO</a>
+            <a href="/">HERO.IO</a>
           </h1>
         </div>
 

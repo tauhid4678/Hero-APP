@@ -43,7 +43,7 @@ export default function AppDetails() {
             <div className="flex flex-col items-center w-28 sm:w-32">
               <img
                 className="w-8 h-8"
-                src="/src/assets/icon-downloads.png"
+                src="/assets/icon-downloads.png"
                 alt="Downloads"
               />
               <h1>Downloads</h1>
@@ -54,7 +54,7 @@ export default function AppDetails() {
             <div className="flex flex-col items-center w-28 sm:w-32">
               <img
                 className="w-8 h-8"
-                src="/src/assets/icon-ratings.png"
+                src="/assets/icon-ratings.png"
                 alt="Ratings"
               />
               <h1>Average Ratings</h1>
@@ -63,7 +63,7 @@ export default function AppDetails() {
             <div className="flex flex-col items-center w-28 sm:w-32">
               <img
                 className="w-8 h-8"
-                src="/src/assets/icon-reviews.png"
+                src="/assets/icon-reviews.png"
                 alt="Reviews"
               />
               <h1>Total Reviews</h1>

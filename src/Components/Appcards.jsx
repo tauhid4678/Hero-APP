@@ -24,7 +24,7 @@ const Appcards = ({ app }) => {
           <div className="badge badge-outline font-bold flex items-center gap-2">
             <img
               className="w-5 h-5"
-              src="/src/assets/icon-downloads.png"
+              src="/assets/icon-downloads.png"
               alt="downloads"
             />
             {(downloads / 1000000).toFixed(1)} M
@@ -33,7 +33,7 @@ const Appcards = ({ app }) => {
             {ratingAvg}
             <img
               className="w-5 h-5"
-              src="/src/assets/icon-ratings.png"
+              src="/assets/icon-ratings.png"
               alt="ratings"
             />
           </div>

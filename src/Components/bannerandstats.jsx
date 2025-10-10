@@ -29,7 +29,7 @@ export default function () {
           >
             <img
               className="w-8 h-8"
-              src="/src/assets/icons8-google-play-48.png"
+              src="/assets/icons8-google-play-48.png"
               alt="googleplayicon"
             />
             <p className="font-semibold ">Google Play</p>
@@ -44,14 +44,14 @@ export default function () {
           >
             <img
               className="w-8 h-8"
-              src="/src/assets/icons8-app-store-48.png"
+              src="/assets/icons8-app-store-48.png"
               alt="appstoreicon"
             />
             <p className="font-semibold ">Appstore</p>
           </button>
         </div>
         <div className="flex justify-center">
-          <img src="/src/assets/hero.png" alt="heroimg" />
+          <img src="/assets/hero.png" alt="heroimg" />
         </div>
       </div>
       {/* {stats} */}

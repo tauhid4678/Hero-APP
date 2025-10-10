@@ -3,7 +3,7 @@ import React from "react";
 export default function ErrorPage() {
   return (
     <div className="flex flex-col py-5 gap-5 justify-between items-center">
-      <img className="w-80 h-80" src="/src/assets/App-Error.png" alt="" />
+      <img className="w-80 h-80" src="/assets/App-Error.png" alt="" />
       <h1 className="font-semibold text-black text-3xl">
         OPPS!! APP NOT FOUND
       </h1>

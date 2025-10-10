@@ -53,7 +53,7 @@ export default function MyInstallation() {
                     <span className="flex items-center gap-1 text-green-500 font-semibold">
                       <img
                         className="w-5 h-5"
-                        src="/src/assets/icon-downloads.png"
+                        src="/assets/icon-downloads.png"
                         alt=""
                       />
                       {Math.round(app.downloads / 1000000)}M
@@ -61,7 +61,7 @@ export default function MyInstallation() {
                     <span className="flex items-center gap-1 text-yellow-500 font-semibold">
                       <img
                         className="w-5 h-5"
-                        src="/src/assets/icon-ratings.png"
+                        src="/assets/icon-ratings.png"
                         alt=""
                       />
                       {app.ratingAvg}

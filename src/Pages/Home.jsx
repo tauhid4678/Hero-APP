@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="p-5">
           <button
-            onClick={() => window.open("./apps", "_blank")}
+            onClick={() => window.open("/apps", "_blank")}
             className="w-40 h-12 flex items-center justify-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-xl"
           >
             See More
