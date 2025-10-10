@@ -6,7 +6,7 @@ import AppCards from "../Components/Appcards";
 export default function Home() {
   const apps = useLoaderData();
 
-  const topApps = apps.slice(0, 9);
+  const topApps = apps.slice(0, 8);
 
   return (
     <div>

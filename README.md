@@ -1,17 +1,29 @@
-# React + Vite
+Project Name: HeroApp (example)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
 
-Currently, two official plugins are available:
+A responsive React app that displays a list of apps with details like title, company, downloads, and ratings. Users can click on an app to view detailed information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used:
 
-## React Compiler
+React (with Hooks)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+TailwindCSS & DaisyUI
 
-## Expanding the ESLint configuration
+LocalStorage for storing selected app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Hero-APP
+Styled-components (for loader)
+
+Recharts
+
+Key Features / Functionalities:
+
+Display apps in a responsive card grid
+
+Show app downloads, ratings, and icons
+
+Click on a card to view detailed app info
+
+Loader animation on page load / navigation
+
+Centralized and visually appealing UI

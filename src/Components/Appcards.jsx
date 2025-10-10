@@ -14,7 +14,7 @@ const Appcards = ({ app }) => {
       onClick={handleClick}
       className="card border-2 border-solid border-gray-50 bg-base-100 w-60 h-60 shadow-sm rounded-xl p-5 cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-lg"
     >
-      <figure className="flex w-50 h-25 rounded-xl justify-center items-center bg-[#D9D9D9]">
+      <figure className="flex w-52 h-28 rounded-xl justify-center items-center bg-[#D9D9D9]">
         <img className="rounded-xl w-20 h-20 " src={image} alt={title} />
       </figure>
 

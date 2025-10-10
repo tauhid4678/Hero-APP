@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384031.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
     "title": "Instagram",
     "companyName": "Meta Platforms",
     "id": 2,
@@ -162,23 +162,24 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
-    "id": 10,
-    "description": "Create stunning designs, social media posts, and presentations easily with drag-and-drop tools.",
-    "size": 60,
-    "reviews": 6400000,
-    "ratingAvg": 4.8,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1300000 },
-      { "name": "5 star", "count": 4800000 }
-    ]
-  },
+  "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+  "title": "Figma",
+  "companyName": "Figma, Inc.",
+  "id": 1,
+  "description": "A collaborative interface design tool that lets you create, prototype, and share designs in real-time.",
+  "size": 120,
+  "reviews": 500000,
+  "ratingAvg": 4.7,
+  "downloads": 10000000,
+  "ratings": [
+    { "name": "1 star", "count": 5000 },
+    { "name": "2 star", "count": 3000 },
+    { "name": "3 star", "count": 7000 },
+    { "name": "4 star", "count": 25000 },
+    { "name": "5 star", "count": 970000 }
+  ]
+}
+,
   {
     "image": "https://cdn-icons-png.flaticon.com/512/906/906175.png",
     "title": "Zoom",
@@ -215,42 +216,25 @@
       { "name": "5 star", "count": 20200000 }
     ]
   },
+  
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
-    "title": "Duolingo",
-    "companyName": "Duolingo Inc.",
-    "id": 13,
-    "description": "Learn languages for free with fun lessons and quizzes that improve reading, writing, and speaking.",
-    "size": 47,
-    "reviews": 6500000,
-    "ratingAvg": 4.8,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 5200000 }
-    ]
-  },
-  {
-    "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png",
-    "title": "Notion",
-    "companyName": "Notion Labs, Inc.",
-    "id": 14,
-    "description": "All-in-one workspace for notes, tasks, and collaboration with powerful organization tools.",
-    "size": 65,
-    "reviews": 4200000,
-    "ratingAvg": 4.9,
-    "downloads": 50000000,
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 30000 },
-      { "name": "3 star", "count": 90000 },
-      { "name": "4 star", "count": 600000 },
-      { "name": "5 star", "count": 3450000 }
-    ]
-  },
+  "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png",
+  "title": "Visual Studio",
+  "companyName": "Microsoft",
+  "id": 2,
+  "description": "A powerful IDE for building apps, websites, and services using multiple programming languages.",
+  "size": 250,
+  "reviews": 350000,
+  "ratingAvg": 4.6,
+  "downloads": 5000000,
+  "ratings": [
+    { "name": "1 star", "count": 5000 },
+    { "name": "2 star", "count": 3000 },
+    { "name": "3 star", "count": 12000 },
+    { "name": "4 star", "count": 50000 },
+    { "name": "5 star", "count": 442000 }
+  ]
+},
   {
     "image": "https://cdn-icons-png.flaticon.com/512/145/145808.png",
     "title": "Pinterest",
@@ -268,5 +252,24 @@
       { "name": "4 star", "count": 2000000 },
       { "name": "5 star", "count": 5250000 }
     ]
-  }
+  },
+  {
+  "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+  "title": "IntelliJ IDEA",
+  "companyName": "JetBrains",
+  "id": 4,
+  "description": "A powerful IDE for Java development, providing intelligent code assistance, debugging, and productivity tools.",
+  "size": 300,
+  "reviews": 250000,
+  "ratingAvg": 4.7,
+  "downloads": 4000000,
+  "ratings": [
+    { "name": "1 star", "count": 5000 },
+    { "name": "2 star", "count": 4000 },
+    { "name": "3 star", "count": 12000 },
+    { "name": "4 star", "count": 40000 },
+    { "name": "5 star", "count": 194000 }
+  ]
+}
+
 ]
