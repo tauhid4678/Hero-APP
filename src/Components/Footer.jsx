@@ -10,8 +10,8 @@ export default function Footer() {
             src="/src/assets/logo.png"
             alt="Logo"
           />
-          <h1 className="font-bold ml-2 text-lg md:text-xl text-[#9F62F2]">
-            HERO.IO
+          <h1 className="font-bold ml-2 text-lg md:text-xl gradcolor">
+            <a href="./">HERO.IO</a>
           </h1>
         </div>
 
